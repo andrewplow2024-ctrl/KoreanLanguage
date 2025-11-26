@@ -2,7 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import VocabularyReview from './components/VocabularyReview';
 import GrammarPractice from './components/GrammarPractice';
-import { Component, ErrorInfo, ReactNode } from 'react';
+import { Component } from 'react';
+import type { ErrorInfo, ReactNode } from 'react';
 
 class ErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
   constructor(props: { children: ReactNode }) {
