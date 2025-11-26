@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getQuizSession } from '../data/grammar';
-import { GrammarQuestion } from '../types/grammar';
+import type { GrammarQuestion } from '../types/grammar';
 import './GrammarPractice.css';
 
 const GrammarPractice: React.FC = () => {

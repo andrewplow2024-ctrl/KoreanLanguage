@@ -1,4 +1,4 @@
-import { GrammarQuestion } from '../types/grammar';
+import type { GrammarQuestion } from '../types/grammar';
 
 export const grammarQuestions: GrammarQuestion[] = [
     // --- Tenses (Past, Present, Future) ---
